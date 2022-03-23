@@ -1,4 +1,4 @@
-require "./marco_gem"
+require "marco_gem/version"
 
 module MarcoGem
   class Error < StandardError; end
