@@ -1,11 +1,12 @@
-require "marco_gem/version"
+require "./marco_gem"
 
 module MarcoGem
-    class Error < StandardError; end
-    # Your code goes here...
-        class Hello
-        def say!
-            puts 'hello'
-            end
-end
+  class Error < StandardError; end
+
+  # Your code goes here...
+  class Alo
+    def dizer
+      puts 'Alo Mundo'
     end
+  end
+end
